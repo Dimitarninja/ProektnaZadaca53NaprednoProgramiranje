@@ -48,12 +48,14 @@ p.push_back({5,"Naume", 4});
 cout<<"Pred da se sortira:\n"<<endl;
 Print(p);
 
-    // sortiranje
+    // sortiranje 
 sort(p.begin(),p.end(), customCompare);
 
 cout<<endl<<"Posle Sortiranje :\n"<<endl;
 Print(p);
 
+
+// otvoranje na fajl i zapisuvanje vo fajlots
 fstream file;
     file.open("885Dimitar.txt",ios_base::out);
  
