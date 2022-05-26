@@ -59,6 +59,8 @@ Print(p);
 fstream file;
     file.open("885Dimitar.txt",ios_base::out);
  
+ 
+ // cikluz za zapisuvanje vo fajlot po red na id nickname i nivo
     for(int i=0;i<p.size();i++)
     {
         file<<p[i].IDBroj << " " << p[i].Nickname << " " << p[i].nivo << endl;
